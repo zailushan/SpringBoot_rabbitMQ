@@ -13,4 +13,5 @@ springboot整合rabbitMQ
 8. 基于DirectExchange+RoutingKey异步发送邮件
 9. 死信队列消息延迟分发实战
 10. 死信队列之用户下单超时没支付自动失效实战
+11. 动态配置死信队列的TTL
 
