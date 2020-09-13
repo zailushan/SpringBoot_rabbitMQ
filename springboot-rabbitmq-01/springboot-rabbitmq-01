@@ -1,0 +1,1163 @@
+2020-08-23 16:04:44.586  INFO 15576 --- [main] c.jack.SpringbootRabbitmq01Application   : Starting SpringbootRabbitmq01Application on LAPTOP-TJF1UJ33 with PID 15576 (D:\test_code\rabbitMQ_study\springboot-rabbitmq-01\target\classes started by lenovo in D:\test_code\rabbitMQ_study\springboot-rabbitmq-01)
+2020-08-23 16:04:44.596  INFO 15576 --- [main] c.jack.SpringbootRabbitmq01Application   : No active profile set, falling back to default profiles: default
+2020-08-23 16:04:47.135  INFO 15576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2020-08-23 16:04:47.155  INFO 15576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-23 16:04:47.155  INFO 15576 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 16:04:47.325  INFO 15576 --- [main] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring embedded WebApplicationContext
+2020-08-23 16:04:47.325  INFO 15576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2559 ms
+2020-08-23 16:04:49.277  INFO 15576 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 16:04:49.676  INFO 15576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path '/study_mq'
+2020-08-23 16:04:49.676  INFO 15576 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [39.105.91.158:5672]
+2020-08-23 16:04:49.896  INFO 15576 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#45cd7bc5:0/SimpleConnection@5b2b8d86 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 56711]
+2020-08-23 16:04:50.426  INFO 15576 --- [main] c.jack.SpringbootRabbitmq01Application   : Started SpringbootRabbitmq01Application in 6.533 seconds (JVM running for 10.801)
+2020-08-23 16:05:31.882  INFO 16056 --- [main] c.jack.SpringbootRabbitmq01Application   : Starting SpringbootRabbitmq01Application on LAPTOP-TJF1UJ33 with PID 16056 (D:\test_code\rabbitMQ_study\springboot-rabbitmq-01\target\classes started by lenovo in D:\test_code\rabbitMQ_study\springboot-rabbitmq-01)
+2020-08-23 16:05:31.892  INFO 16056 --- [main] c.jack.SpringbootRabbitmq01Application   : No active profile set, falling back to default profiles: default
+2020-08-23 16:05:33.758  INFO 16056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2020-08-23 16:05:33.768  INFO 16056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-23 16:05:33.768  INFO 16056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 16:05:33.888  INFO 16056 --- [main] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring embedded WebApplicationContext
+2020-08-23 16:05:33.888  INFO 16056 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1865 ms
+2020-08-23 16:05:34.978  INFO 16056 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 16:05:35.317  INFO 16056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path '/study_mq'
+2020-08-23 16:05:35.327  INFO 16056 --- [main] c.jack.SpringbootRabbitmq01Application   : Started SpringbootRabbitmq01Application in 4.483 seconds (JVM running for 6.57)
+2020-08-23 16:06:23.973  INFO 16056 --- [http-nio-9092-exec-1] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-23 16:06:23.973  INFO 16056 --- [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-23 16:06:23.983  INFO 16056 --- [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-08-23 16:06:24.066  INFO 16056 --- [http-nio-9092-exec-1] com.jack.controller.RabbitController     : 待发送的消息： rabbitmq-发送消息 
+2020-08-23 16:06:24.072  INFO 16056 --- [http-nio-9092-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [39.105.91.158:5672]
+2020-08-23 16:06:24.291  INFO 16056 --- [http-nio-9092-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#5854a18:0/SimpleConnection@2fff2fca [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 56847]
+2020-08-23 16:06:25.171  INFO 16056 --- [rabbitConnectionFactory1] com.jack.config.RabbitmqConfig           : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-08-23 16:11:19.373  INFO 14504 --- [main] c.jack.SpringbootRabbitmq01Application   : Starting SpringbootRabbitmq01Application on LAPTOP-TJF1UJ33 with PID 14504 (D:\test_code\rabbitMQ_study\springboot-rabbitmq-01\target\classes started by lenovo in D:\test_code\rabbitMQ_study\springboot-rabbitmq-01)
+2020-08-23 16:11:19.383  INFO 14504 --- [main] c.jack.SpringbootRabbitmq01Application   : No active profile set, falling back to default profiles: default
+2020-08-23 16:11:21.062  INFO 14504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2020-08-23 16:11:21.122  INFO 14504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-23 16:11:21.122  INFO 14504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 16:11:21.302  INFO 14504 --- [main] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring embedded WebApplicationContext
+2020-08-23 16:11:21.312  INFO 14504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1729 ms
+2020-08-23 16:11:22.301  INFO 14504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 16:11:22.601  INFO 14504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path '/study_mq'
+2020-08-23 16:11:22.601  INFO 14504 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [39.105.91.158:5672]
+2020-08-23 16:11:22.831  INFO 14504 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7c2dfa2:0/SimpleConnection@6de004f1 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 57153]
+2020-08-23 16:11:23.692  INFO 14504 --- [main] c.jack.SpringbootRabbitmq01Application   : Started SpringbootRabbitmq01Application in 5.077 seconds (JVM running for 6.792)
+2020-08-23 16:11:23.742  WARN 14504 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/739812330.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'rabbitmq': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"rabbitmq-发送消息"; line: 1, column: 9]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1944) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:776) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:11:23.752  WARN 14504 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@3c8c2e90(byte[21])' MessageProperties [headers={spring_listener_return_correlation=a489ac4f-1041-48db-9bba-7a2556071bdc}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=local:basic:info:mq:exchange, receivedRoutingKey=local:basic:info:mq:routing:key, deliveryTag=1, consumerTag=amq.ctag-qGQmC9qzkXY3nYfIPWLHRg, consumerQueue=local:basic:info:mq:queue])
+2020-08-23 16:11:23.762 ERROR 14504 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Execution of Rabbit message listener failed, and the error handler threw an exception
+
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:116) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1395) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1679) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1454) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/739812330.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 6 common frames omitted
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'rabbitmq': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"rabbitmq-发送消息"; line: 1, column: 9]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1944) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:776) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:11:43.519  INFO 15096 --- [main] c.jack.SpringbootRabbitmq01Application   : Starting SpringbootRabbitmq01Application on LAPTOP-TJF1UJ33 with PID 15096 (D:\test_code\rabbitMQ_study\springboot-rabbitmq-01\target\classes started by lenovo in D:\test_code\rabbitMQ_study\springboot-rabbitmq-01)
+2020-08-23 16:11:43.519  INFO 15096 --- [main] c.jack.SpringbootRabbitmq01Application   : No active profile set, falling back to default profiles: default
+2020-08-23 16:11:44.918  INFO 15096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2020-08-23 16:11:44.938  INFO 15096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-23 16:11:44.938  INFO 15096 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 16:11:45.048  INFO 15096 --- [main] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring embedded WebApplicationContext
+2020-08-23 16:11:45.048  INFO 15096 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1449 ms
+2020-08-23 16:11:45.967  INFO 15096 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 16:11:46.227  INFO 15096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path '/study_mq'
+2020-08-23 16:11:46.227  INFO 15096 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [39.105.91.158:5672]
+2020-08-23 16:11:46.447  INFO 15096 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1386313f:0/SimpleConnection@527a8665 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 57190]
+2020-08-23 16:11:46.917  INFO 15096 --- [main] c.jack.SpringbootRabbitmq01Application   : Started SpringbootRabbitmq01Application in 4.318 seconds (JVM running for 5.878)
+2020-08-23 16:12:08.882  INFO 15096 --- [http-nio-9092-exec-2] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-23 16:12:08.882  INFO 15096 --- [http-nio-9092-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-23 16:12:08.892  INFO 15096 --- [http-nio-9092-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-08-23 16:12:08.931  INFO 15096 --- [http-nio-9092-exec-2] com.jack.controller.RabbitController     : 待发送的消息： rabbitmq-发送消息 
+2020-08-23 16:12:09.612  INFO 15096 --- [rabbitConnectionFactory1] com.jack.config.RabbitmqConfig           : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-08-23 16:12:09.629  WARN 15096 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/1929576211.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'rabbitmq': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"rabbitmq-发送消息"; line: 1, column: 9]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1944) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:776) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:12:09.645  WARN 15096 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@2e64a02(byte[21])' MessageProperties [headers={spring_listener_return_correlation=fd79e17b-f031-469b-9aab-c0ff911afc58}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=local:basic:info:mq:exchange, receivedRoutingKey=local:basic:info:mq:routing:key, deliveryTag=1, consumerTag=amq.ctag-fi_BdPQgb2YY7zNcOvLriw, consumerQueue=local:basic:info:mq:queue])
+2020-08-23 16:12:09.646 ERROR 15096 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Execution of Rabbit message listener failed, and the error handler threw an exception
+
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:116) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1395) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1679) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1454) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/1929576211.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 6 common frames omitted
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'rabbitmq': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"rabbitmq-发送消息"; line: 1, column: 9]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1944) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:776) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:12:42.206  INFO 15096 --- [http-nio-9092-exec-1] com.jack.controller.RabbitController     : 待发送的消息： 123456 
+2020-08-23 16:12:42.259  INFO 15096 --- [rabbitConnectionFactory1] com.jack.config.RabbitmqConfig           : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-08-23 16:12:42.287  WARN 15096 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/1929576211.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `[B` out of VALUE_NUMBER_INT token
+ at [Source: (String)"123456"; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1468) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1242) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1148) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.handleNonArray(PrimitiveArrayDeserializers.java:220) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:478) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:426) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4524) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:12:42.288  WARN 15096 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@6a52f38d(byte[6])' MessageProperties [headers={spring_listener_return_correlation=fd79e17b-f031-469b-9aab-c0ff911afc58}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=local:basic:info:mq:exchange, receivedRoutingKey=local:basic:info:mq:routing:key, deliveryTag=2, consumerTag=amq.ctag-fi_BdPQgb2YY7zNcOvLriw, consumerQueue=local:basic:info:mq:queue])
+2020-08-23 16:12:42.289 ERROR 15096 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Execution of Rabbit message listener failed, and the error handler threw an exception
+
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:116) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1395) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1679) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1454) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/1929576211.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 6 common frames omitted
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `[B` out of VALUE_NUMBER_INT token
+ at [Source: (String)"123456"; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1468) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1242) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1148) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.handleNonArray(PrimitiveArrayDeserializers.java:220) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:478) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:426) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4524) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:15:36.009  INFO 15096 --- [http-nio-9092-exec-4] com.jack.controller.RabbitController     : 待发送的消息： 123456 
+2020-08-23 16:16:02.825  INFO 15096 --- [rabbitConnectionFactory2] com.jack.config.RabbitmqConfig           : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-08-23 16:16:02.825  WARN 15096 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/1929576211.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `[B` out of VALUE_NUMBER_INT token
+ at [Source: (String)"123456"; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1468) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1242) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1148) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.handleNonArray(PrimitiveArrayDeserializers.java:220) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:478) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:426) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4524) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:16:02.830  WARN 15096 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@60afeef(byte[6])' MessageProperties [headers={spring_listener_return_correlation=fd79e17b-f031-469b-9aab-c0ff911afc58}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=local:basic:info:mq:exchange, receivedRoutingKey=local:basic:info:mq:routing:key, deliveryTag=3, consumerTag=amq.ctag-fi_BdPQgb2YY7zNcOvLriw, consumerQueue=local:basic:info:mq:queue])
+2020-08-23 16:16:02.831 ERROR 15096 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Execution of Rabbit message listener failed, and the error handler threw an exception
+
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:116) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1395) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1679) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1454) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/1929576211.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 6 common frames omitted
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `[B` out of VALUE_NUMBER_INT token
+ at [Source: (String)"123456"; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1468) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1242) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1148) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.handleNonArray(PrimitiveArrayDeserializers.java:220) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:478) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:426) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4524) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:17:24.062  INFO 1224 --- [main] c.jack.SpringbootRabbitmq01Application   : Starting SpringbootRabbitmq01Application on LAPTOP-TJF1UJ33 with PID 1224 (D:\test_code\rabbitMQ_study\springboot-rabbitmq-01\target\classes started by lenovo in D:\test_code\rabbitMQ_study\springboot-rabbitmq-01)
+2020-08-23 16:17:24.067  INFO 1224 --- [main] c.jack.SpringbootRabbitmq01Application   : No active profile set, falling back to default profiles: default
+2020-08-23 16:17:25.368  INFO 1224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2020-08-23 16:17:25.382  INFO 1224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-23 16:17:25.382  INFO 1224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 16:17:25.476  INFO 1224 --- [main] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring embedded WebApplicationContext
+2020-08-23 16:17:25.476  INFO 1224 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2020-08-23 16:17:26.537  INFO 1224 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 16:17:26.812  INFO 1224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path '/study_mq'
+2020-08-23 16:17:26.815  INFO 1224 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [39.105.91.158:5672]
+2020-08-23 16:17:27.027  INFO 1224 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#b112b13:0/SimpleConnection@39ab5ef7 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 57627]
+2020-08-23 16:17:27.484  INFO 1224 --- [main] c.jack.SpringbootRabbitmq01Application   : Started SpringbootRabbitmq01Application in 5.082 seconds (JVM running for 6.763)
+2020-08-23 16:18:15.042  INFO 1224 --- [http-nio-9092-exec-1] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-23 16:18:15.042  INFO 1224 --- [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-23 16:18:15.051  INFO 1224 --- [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-08-23 16:18:15.093  INFO 1224 --- [http-nio-9092-exec-1] com.jack.controller.RabbitController     : 待发送的消息： 123456 
+2020-08-23 16:18:15.235  INFO 1224 --- [rabbitConnectionFactory1] com.jack.config.RabbitmqConfig           : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-08-23 16:18:15.268  WARN 1224 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/1495791876.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `[B` out of VALUE_NUMBER_INT token
+ at [Source: (String)"123456"; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1468) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1242) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1148) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.handleNonArray(PrimitiveArrayDeserializers.java:220) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:478) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:426) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4524) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:18:15.270  WARN 1224 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@43a64e2f(byte[6])' MessageProperties [headers={spring_listener_return_correlation=0763e0c1-7e44-411b-b84b-c9d9977a8c0d}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=local:basic:info:mq:exchange, receivedRoutingKey=local:basic:info:mq:routing:key, deliveryTag=1, consumerTag=amq.ctag-n18LqNXXwd4Vr2q9ZoRlUQ, consumerQueue=local:basic:info:mq:queue])
+2020-08-23 16:18:15.271 ERROR 1224 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Execution of Rabbit message listener failed, and the error handler threw an exception
+
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:116) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1395) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1679) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1454) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/1495791876.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 6 common frames omitted
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `[B` out of VALUE_NUMBER_INT token
+ at [Source: (String)"123456"; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1468) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1242) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1148) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.handleNonArray(PrimitiveArrayDeserializers.java:220) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:478) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:426) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4524) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:19:38.749  WARN 1224 --- [pool-1-thread-5] o.s.a.r.listener.BlockingQueueConsumer   : Cancel received for amq.ctag-n18LqNXXwd4Vr2q9ZoRlUQ (local:basic:info:mq:queue); Consumer@65eb3597: tags=[[amq.ctag-n18LqNXXwd4Vr2q9ZoRlUQ]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://jack@39.105.91.158:5672//test,1), conn: Proxy@30a9e3db Shared Rabbit Connection: SimpleConnection@39ab5ef7 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 57627], acknowledgeMode=AUTO local queue size=0
+2020-08-23 16:19:39.605  WARN 1224 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+2020-08-23 16:19:39.606  INFO 1224 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@65eb3597: tags=[[]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://jack@39.105.91.158:5672//test,1), conn: Proxy@30a9e3db Shared Rabbit Connection: SimpleConnection@39ab5ef7 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 57627], acknowledgeMode=AUTO local queue size=0
+2020-08-23 16:19:55.063  INFO 15168 --- [main] c.jack.SpringbootRabbitmq01Application   : Starting SpringbootRabbitmq01Application on LAPTOP-TJF1UJ33 with PID 15168 (D:\test_code\rabbitMQ_study\springboot-rabbitmq-01\target\classes started by lenovo in D:\test_code\rabbitMQ_study\springboot-rabbitmq-01)
+2020-08-23 16:19:55.069  INFO 15168 --- [main] c.jack.SpringbootRabbitmq01Application   : No active profile set, falling back to default profiles: default
+2020-08-23 16:19:56.771  INFO 15168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2020-08-23 16:19:56.787  INFO 15168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-23 16:19:56.788  INFO 15168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 16:19:56.900  INFO 15168 --- [main] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring embedded WebApplicationContext
+2020-08-23 16:19:56.900  INFO 15168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1693 ms
+2020-08-23 16:19:57.866  INFO 15168 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 16:19:58.142  INFO 15168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path '/study_mq'
+2020-08-23 16:19:58.145  INFO 15168 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [39.105.91.158:5672]
+2020-08-23 16:19:58.357  INFO 15168 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#48904d5a:0/SimpleConnection@1e1e837d [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 57864]
+2020-08-23 16:19:58.819  INFO 15168 --- [main] c.jack.SpringbootRabbitmq01Application   : Started SpringbootRabbitmq01Application in 4.642 seconds (JVM running for 6.469)
+2020-08-23 16:20:23.309  INFO 15168 --- [http-nio-9092-exec-1] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-23 16:20:23.310  INFO 15168 --- [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-23 16:20:23.317  INFO 15168 --- [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-23 16:20:23.350  INFO 15168 --- [http-nio-9092-exec-1] com.jack.controller.RabbitController     : 待发送的消息： 123456 
+2020-08-23 16:20:24.008  INFO 15168 --- [rabbitConnectionFactory1] com.jack.config.RabbitmqConfig           : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-08-23 16:20:24.034  WARN 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/926612844.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `[B` out of VALUE_NUMBER_INT token
+ at [Source: (String)"123456"; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1468) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1242) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1148) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.handleNonArray(PrimitiveArrayDeserializers.java:220) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:478) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:426) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4524) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:20:24.040  WARN 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@2855485f(byte[6])' MessageProperties [headers={spring_listener_return_correlation=cddd0adb-a298-4651-8c33-fa1793098e7e}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=local:basic:info:mq:exchange, receivedRoutingKey=local:basic:info:mq:routing:key, deliveryTag=1, consumerTag=amq.ctag-3hXmfxDFcTEmAMYYX3OaHg, consumerQueue=local:basic:info:mq:queue])
+2020-08-23 16:20:24.041 ERROR 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Execution of Rabbit message listener failed, and the error handler threw an exception
+
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:116) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1395) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1679) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1454) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/926612844.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 6 common frames omitted
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `[B` out of VALUE_NUMBER_INT token
+ at [Source: (String)"123456"; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1468) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1242) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1148) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.handleNonArray(PrimitiveArrayDeserializers.java:220) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:478) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:426) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4524) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:23:19.881  WARN 15168 --- [AMQP Connection 39.105.91.158:5672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Connection reset)
+2020-08-23 16:23:19.885 ERROR 15168 --- [AMQP Connection 39.105.91.158:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: connection error
+2020-08-23 16:23:19.886 ERROR 15168 --- [AMQP Connection 39.105.91.158:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: connection error
+2020-08-23 16:23:20.142  INFO 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@16bd7ae1: tags=[[amq.ctag-3hXmfxDFcTEmAMYYX3OaHg]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://jack@39.105.91.158:5672//test,1), conn: Proxy@7ab2a07e Shared Rabbit Connection: SimpleConnection@1e1e837d [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 57864], acknowledgeMode=AUTO local queue size=0
+2020-08-23 16:23:20.145  INFO 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [39.105.91.158:5672]
+2020-08-23 16:23:20.317  INFO 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#48904d5a:1/SimpleConnection@75f86d00 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 58171]
+2020-08-23 16:31:50.018  INFO 15168 --- [http-nio-9092-exec-3] com.jack.controller.RabbitController     : 待发送的消息： hello 
+2020-08-23 16:31:50.065  INFO 15168 --- [rabbitConnectionFactory4] com.jack.config.RabbitmqConfig           : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-08-23 16:31:50.067  WARN 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/926612844.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'hello': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"hello"; line: 1, column: 6]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1944) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:776) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:31:50.073  WARN 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@100c8d3(byte[5])' MessageProperties [headers={spring_listener_return_correlation=cddd0adb-a298-4651-8c33-fa1793098e7e}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=local:basic:info:mq:exchange, receivedRoutingKey=local:basic:info:mq:routing:key, deliveryTag=1, consumerTag=amq.ctag-SPDsrtupY7gaZUzxMXMfgA, consumerQueue=local:basic:info:mq:queue])
+2020-08-23 16:31:50.075 ERROR 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Execution of Rabbit message listener failed, and the error handler threw an exception
+
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:116) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1395) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1679) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1454) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/926612844.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 6 common frames omitted
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'hello': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"hello"; line: 1, column: 6]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1944) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:776) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:36:49.390  WARN 15168 --- [pool-1-thread-12] o.s.a.r.listener.BlockingQueueConsumer   : Cancel received for amq.ctag-SPDsrtupY7gaZUzxMXMfgA (local:basic:info:mq:queue); Consumer@9a28fe0: tags=[[amq.ctag-SPDsrtupY7gaZUzxMXMfgA]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://jack@39.105.91.158:5672//test,1), conn: Proxy@7ab2a07e Shared Rabbit Connection: SimpleConnection@75f86d00 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 58171], acknowledgeMode=AUTO local queue size=0
+2020-08-23 16:36:50.326  WARN 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+2020-08-23 16:36:50.326  INFO 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@9a28fe0: tags=[[]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://jack@39.105.91.158:5672//test,1), conn: Proxy@7ab2a07e Shared Rabbit Connection: SimpleConnection@75f86d00 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 58171], acknowledgeMode=AUTO local queue size=0
+2020-08-23 16:38:18.452  WARN 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/926612844.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token '模板': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"模板"; line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1944) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:776) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:38:18.453  WARN 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@34f9238b(byte[6])' MessageProperties [headers={spring_listener_return_correlation=99d21cea-ede5-4166-8474-a53679e79981}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=local:basic:info:mq:exchange, receivedRoutingKey=local:basic:info:mq:routing:key, deliveryTag=1, consumerTag=amq.ctag-zkucLFmNPEmr5NuqfC8aXQ, consumerQueue=local:basic:info:mq:queue])
+2020-08-23 16:38:18.455 ERROR 15168 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Execution of Rabbit message listener failed, and the error handler threw an exception
+
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:116) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1395) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1679) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1454) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/926612844.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 6 common frames omitted
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token '模板': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"模板"; line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1944) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:776) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:41:43.451  INFO 1124 --- [main] c.jack.SpringbootRabbitmq01Application   : Starting SpringbootRabbitmq01Application on LAPTOP-TJF1UJ33 with PID 1124 (D:\test_code\rabbitMQ_study\springboot-rabbitmq-01\target\classes started by lenovo in D:\test_code\rabbitMQ_study\springboot-rabbitmq-01)
+2020-08-23 16:41:43.457  INFO 1124 --- [main] c.jack.SpringbootRabbitmq01Application   : No active profile set, falling back to default profiles: default
+2020-08-23 16:41:45.324  INFO 1124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2020-08-23 16:41:45.337  INFO 1124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-23 16:41:45.337  INFO 1124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 16:41:45.428  INFO 1124 --- [main] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring embedded WebApplicationContext
+2020-08-23 16:41:45.428  INFO 1124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1880 ms
+2020-08-23 16:41:46.410  INFO 1124 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 16:41:46.674  INFO 1124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path '/study_mq'
+2020-08-23 16:41:46.676  INFO 1124 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [39.105.91.158:5672]
+2020-08-23 16:41:46.894  INFO 1124 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#24eb65e3:0/SimpleConnection@517704 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 59559]
+2020-08-23 16:41:47.367  INFO 1124 --- [main] c.jack.SpringbootRabbitmq01Application   : Started SpringbootRabbitmq01Application in 4.854 seconds (JVM running for 6.476)
+2020-08-23 16:42:37.509  INFO 1124 --- [http-nio-9092-exec-2] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-23 16:42:37.509  INFO 1124 --- [http-nio-9092-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-23 16:42:37.517  INFO 1124 --- [http-nio-9092-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-08-23 16:42:37.553  INFO 1124 --- [http-nio-9092-exec-2] com.jack.controller.RabbitController     : 待发送的消息： test hello 
+2020-08-23 16:42:37.698  INFO 1124 --- [rabbitConnectionFactory1] com.jack.config.RabbitmqConfig           : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-08-23 16:42:37.719  WARN 1124 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/733357076.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'test': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"test hello"; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2876) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchToken(ReaderBasedJsonParser.java:2657) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchTrue(ReaderBasedJsonParser.java:2609) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:741) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:42:37.725  WARN 1124 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@98476ae(byte[10])' MessageProperties [headers={spring_listener_return_correlation=8fcff11f-6c53-418d-921e-8db6a31b3ea0}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=local:basic:info:mq:exchange, receivedRoutingKey=local:basic:info:mq:routing:key, deliveryTag=1, consumerTag=amq.ctag-wnyJBnHcBdSB0-_3Jr5DHA, consumerQueue=local:basic:info:mq:queue])
+2020-08-23 16:42:37.726 ERROR 1124 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Execution of Rabbit message listener failed, and the error handler threw an exception
+
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:116) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1395) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1679) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1454) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/733357076.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 6 common frames omitted
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'test': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"test hello"; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2876) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchToken(ReaderBasedJsonParser.java:2657) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchTrue(ReaderBasedJsonParser.java:2609) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:741) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:48:01.179  INFO 13844 --- [main] c.jack.SpringbootRabbitmq01Application   : Starting SpringbootRabbitmq01Application on LAPTOP-TJF1UJ33 with PID 13844 (D:\test_code\rabbitMQ_study\springboot-rabbitmq-01\target\classes started by lenovo in D:\test_code\rabbitMQ_study\springboot-rabbitmq-01)
+2020-08-23 16:48:01.189  INFO 13844 --- [main] c.jack.SpringbootRabbitmq01Application   : No active profile set, falling back to default profiles: default
+2020-08-23 16:48:02.771  INFO 13844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2020-08-23 16:48:02.786  INFO 13844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-23 16:48:02.786  INFO 13844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 16:48:02.901  INFO 13844 --- [main] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring embedded WebApplicationContext
+2020-08-23 16:48:02.901  INFO 13844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1622 ms
+2020-08-23 16:48:03.920  INFO 13844 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 16:48:04.185  INFO 13844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path '/study_mq'
+2020-08-23 16:48:04.188  INFO 13844 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [39.105.91.158:5672]
+2020-08-23 16:48:04.407  INFO 13844 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7f37b6d9:0/SimpleConnection@2fc49538 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 60023]
+2020-08-23 16:48:04.886  INFO 13844 --- [main] c.jack.SpringbootRabbitmq01Application   : Started SpringbootRabbitmq01Application in 4.996 seconds (JVM running for 6.63)
+2020-08-23 16:48:26.989  INFO 13844 --- [http-nio-9092-exec-2] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-23 16:48:26.990  INFO 13844 --- [http-nio-9092-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-23 16:48:26.997  INFO 13844 --- [http-nio-9092-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-23 16:48:27.034  INFO 13844 --- [http-nio-9092-exec-2] com.jack.controller.RabbitController     : 待发送的消息： test hello 
+2020-08-23 16:48:27.181  INFO 13844 --- [rabbitConnectionFactory1] com.jack.config.RabbitmqConfig           : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-08-23 16:48:27.202  WARN 13844 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/594207037.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'test': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"test hello"; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2876) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchToken(ReaderBasedJsonParser.java:2657) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchTrue(ReaderBasedJsonParser.java:2609) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:741) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:48:27.207  WARN 13844 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@5b118572(byte[10])' MessageProperties [headers={spring_listener_return_correlation=5ff49bf9-5c96-404b-8d72-6ed504b8535a}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=local:basic:info:mq:exchange, receivedRoutingKey=local:basic:info:mq:routing:key, deliveryTag=1, consumerTag=amq.ctag-a0X4SHjUyhs75GfBTQ27xA, consumerQueue=local:basic:info:mq:queue])
+2020-08-23 16:48:27.208 ERROR 13844 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Execution of Rabbit message listener failed, and the error handler threw an exception
+
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:116) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1395) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1679) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1454) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/594207037.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 6 common frames omitted
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'test': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"test hello"; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2876) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchToken(ReaderBasedJsonParser.java:2657) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchTrue(ReaderBasedJsonParser.java:2609) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:741) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:50:33.243  WARN 13844 --- [pool-1-thread-5] o.s.a.r.listener.BlockingQueueConsumer   : Cancel received for amq.ctag-a0X4SHjUyhs75GfBTQ27xA (local:basic:info:mq:queue); Consumer@13cc0b90: tags=[[amq.ctag-a0X4SHjUyhs75GfBTQ27xA]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://jack@39.105.91.158:5672//test,1), conn: Proxy@1cd6b1bd Shared Rabbit Connection: SimpleConnection@2fc49538 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 60023], acknowledgeMode=AUTO local queue size=0
+2020-08-23 16:50:33.296  WARN 13844 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+2020-08-23 16:50:33.297  INFO 13844 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@13cc0b90: tags=[[]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://jack@39.105.91.158:5672//test,1), conn: Proxy@1cd6b1bd Shared Rabbit Connection: SimpleConnection@2fc49538 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 60023], acknowledgeMode=AUTO local queue size=0
+2020-08-23 16:50:53.758  INFO 16164 --- [main] c.jack.SpringbootRabbitmq01Application   : Starting SpringbootRabbitmq01Application on LAPTOP-TJF1UJ33 with PID 16164 (D:\test_code\rabbitMQ_study\springboot-rabbitmq-01\target\classes started by lenovo in D:\test_code\rabbitMQ_study\springboot-rabbitmq-01)
+2020-08-23 16:50:53.762  INFO 16164 --- [main] c.jack.SpringbootRabbitmq01Application   : No active profile set, falling back to default profiles: default
+2020-08-23 16:50:55.394  INFO 16164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2020-08-23 16:50:55.408  INFO 16164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-23 16:50:55.409  INFO 16164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 16:50:55.515  INFO 16164 --- [main] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring embedded WebApplicationContext
+2020-08-23 16:50:55.515  INFO 16164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1650 ms
+2020-08-23 16:50:56.469  INFO 16164 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 16:50:56.736  INFO 16164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path '/study_mq'
+2020-08-23 16:50:56.738  INFO 16164 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [39.105.91.158:5672]
+2020-08-23 16:50:56.961  INFO 16164 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#58a2b917:0/SimpleConnection@5c313224 [delegate=amqp://jack@39.105.91.158:5672//test, localPort= 60293]
+2020-08-23 16:50:57.446  INFO 16164 --- [main] c.jack.SpringbootRabbitmq01Application   : Started SpringbootRabbitmq01Application in 4.589 seconds (JVM running for 6.193)
+2020-08-23 16:51:07.011  INFO 16164 --- [http-nio-9092-exec-3] o.a.c.c.C.[.[localhost].[/study_mq]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-23 16:51:07.011  INFO 16164 --- [http-nio-9092-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-23 16:51:07.017  INFO 16164 --- [http-nio-9092-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-23 16:51:07.051  INFO 16164 --- [http-nio-9092-exec-3] com.jack.controller.RabbitController     : 待发送的消息： test hello 
+2020-08-23 16:51:07.723  INFO 16164 --- [rabbitConnectionFactory1] com.jack.config.RabbitmqConfig           : 消息发送成功:correlationData(null),ack(true),cause(null)
+2020-08-23 16:51:07.743  WARN 16164 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/1926136110.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'test': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"test hello"; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2876) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchToken(ReaderBasedJsonParser.java:2657) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchTrue(ReaderBasedJsonParser.java:2609) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:741) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
+2020-08-23 16:51:07.762  WARN 16164 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@5b338324(byte[10])' MessageProperties [headers={spring_listener_return_correlation=370715d3-645c-4ef5-ac98-0aee6695b92e}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=local:basic:info:mq:exchange, receivedRoutingKey=local:basic:info:mq:routing:key, deliveryTag=1, consumerTag=amq.ctag--EsmjINNxufHGfg1_0YAZA, consumerQueue=local:basic:info:mq:queue])
+2020-08-23 16:51:07.763 ERROR 16164 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Execution of Rabbit message listener failed, and the error handler threw an exception
+
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:116) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1395) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1679) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1454) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:970) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:916) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1291) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1197) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener threw exception
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.wrapToListenerExecutionFailedExceptionIfNeeded(AbstractMessageListenerContainer.java:1705) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1595) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1510) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer$$Lambda$510/1926136110.invokeListener(Unknown Source) ~[na:na]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1498) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1489) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1433) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 6 common frames omitted
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:322) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:273) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:253) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:302) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:323) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:130) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:205) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:132) ~[spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1591) [spring-rabbit-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'test': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"test hello"; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2876) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchToken(ReaderBasedJsonParser.java:2657) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchTrue(ReaderBasedJsonParser.java:2609) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:741) ~[jackson-core-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3466) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:345) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:310) ~[spring-amqp-2.2.10.RELEASE.jar:2.2.10.RELEASE]
+	... 19 common frames omitted
+
